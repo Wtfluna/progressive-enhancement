@@ -1,0 +1,66 @@
+blockquote {
+    font-family: serif;
+    font-size: 160%;
+    color: #360316;
+    background-color: #EDEDED;
+    border-left: 3px solid;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+body {
+    font-family: serif;
+    font-size: large;
+    text-align: justify;
+    width: 90%;
+    margin: 5%;
+    background-image: url(ferme.jpg);
+    background-size: cover;
+    background-position: bottom right;
+}
+
+a:visited {
+    color: #360316;
+}
+
+a:hover {
+    color: #910538;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+em {
+    font-style: italic;
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+table,
+td,
+th {
+    border: solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+header,
+ul,
+li {
+    font-style: bold;
+}
